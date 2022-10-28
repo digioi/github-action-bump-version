@@ -1,3 +1,3 @@
 # github-action-bump-version
 
-Testing update
+Testing update 2
