@@ -18,9 +18,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          minor-wording:  'MINOR,add,Adds,new'
-          major-wording:  'MAJOR,cut-major'
-          patch-wording:  'PATCH,patch,fixes'     # Providing patch-wording will override commits
+          minor-wording:  'add,Adds,new'
+          major-wording:  'cut-major'
+          patch-wording:  'patch,fixes'     # Providing patch-wording will override commits
                                             # defaulting to a patch bump.
           rc-wording:     'RELEASE,alpha'
       - name: 'cat package.json'
